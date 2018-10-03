@@ -15,7 +15,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "mv -f build/* docs"
+    "deploy": "rm -r docs/static && mv -f build/* docs && cd docs && git add . && git commit -m 'most recent build' && git push && cd .."
   },
   "devDependencies": {
     "ajv": "^6.5.4",
