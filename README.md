@@ -1,5 +1,5 @@
 # React homepage
-React homepage for my personal webpage. Website URL: [https://a1liu.github.io/home/][page]
+React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][page]
 
 ### TODO
 * [ ] Like everything
@@ -14,7 +14,7 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/ho
 	- [Gulp][gulp] - Used this to auto-compile sass files
 	- [Bootstrap][boots] - Used this library for javascript stuff
 
-[page]: https://a1liu.github.io/home/
+[page]: https://a1liu.github.io/
 [setup]: https://github.com/gitname/react-gh-pages
 [tut]: https://www.youtube.com/watch?v=nusgoj74a3Y&index=3&list=PL-Db3tEF6pB8oGh1vpfmpSa1-duyxNuGc
 [sass]: https://sass-lang.com/install
