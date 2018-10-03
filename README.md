@@ -13,6 +13,8 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][
 	- [Sass][sass] - Used this to make css stuff easier
 	- [Gulp][gulp] - Used this to auto-compile sass files
 	- [Bootstrap][boots] - Used this library for javascript stuff
+- [Dealing with User Github Pages][ugp] - Figured out how to deal with user github pages using this article
+	- [Command line stuff][cmd] - Also used this to figure out how to do file shuffling to make `npm run deploy` work the way I want it to
 
 [page]: https://a1liu.github.io/
 [setup]: https://github.com/gitname/react-gh-pages
@@ -20,3 +22,5 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][
 [sass]: https://sass-lang.com/install
 [gulp]: https://gulpjs.com/
 [boots]: http://getbootstrap.com/docs/4.1/getting-started/introduction/
+[ugp]: https://github.com/facebook/create-react-app/issues/1354
+[cmd]: https://www.hostingadvice.com/how-to/move-copy-delete-files-linux/
