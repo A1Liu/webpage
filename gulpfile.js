@@ -21,6 +21,7 @@ gulp.task('compile_scss',function() {
 	.pipe(changed(SCSS_DEST))
 	.pipe(gulp.dest(SCSS_DEST));
 });
+//"&& cd build && git add . && git commit -m 'most recent build' && git push"
 
 gulp.task('watch_scss', function() {
 	gulp.watch(SCSS_SRC,function(){
