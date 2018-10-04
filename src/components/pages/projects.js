@@ -8,9 +8,32 @@ class Projects extends Component {
 		<h1>
 			Projects
 		</h1>
-		<p className="App-intro">
-			Hello! This is currently not being worked on, but eventually there will be content here.
-		</p>
+
+		<ul>
+
+			<li>
+				<a href = "https://github.com/a2liu/nyu-csci-201-cso">CSCI 201 - CSO</a>
+			</li>
+			<li>
+				<a href = "https://github.com/A1Liu/webpage">Webpage (this thing)</a>
+			</li>
+			<li>
+				<a href = "https://github.com/A1Liu/seek-quench">Seek-Quench</a>
+			</li>
+			// <li>
+			// 	<a href = "temp">temp</a>
+			// </li>
+			// <li>
+			// 	<a href = "temp">temp</a>
+			// </li>
+			// <li>
+			// 	<a href = "temp">temp</a>
+			// </li>
+			// <li>
+			// 	<a href = "temp">temp</a>
+			// </li>
+
+		</ul>
 
 	  </div>
     );
