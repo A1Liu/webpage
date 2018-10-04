@@ -9,9 +9,12 @@ import {
 import './Assets/css/default.min.css';
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
+
+//Pages
 import Homepage from './components/pages/homepage';
-import Page2 from  './components/pages/page2';
-import Page3 from  './components/pages/page3';
+import Projects from  './components/pages/projects';
+import Games from './components/pages/games';
+import Resources from  './components/pages/resources';
 
 class App extends Component {
   render() {
@@ -22,8 +25,9 @@ class App extends Component {
 			<Header />
 
 				<Route exact path = '/' component={Homepage} />
-				<Route exact path = '/page2' component={Page2} />
-				<Route exact path = '/page3' component={Page3} />
+				<Route exact path = '/projects' component={Projects} />
+				<Route exact path = '/resources' component={Resources} />
+				<Route exact path = '/games' component={Games} />
 
 			<Footer />
 
