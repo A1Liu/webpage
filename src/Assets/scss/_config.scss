@@ -2,23 +2,23 @@
 @import "_funcs.scss";
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;//Garamond
 	font-size: 18px;
 	font-weight: 400;
 	font-style: normal;
-	background: $darkGrey;
-	color: $white;
+	background: $darkGray;
+	color: $gray;
 }
 
 a {
 	text-decoration: none;
 	@include transition(.4s ease-in-out);
 	cursor: pointer;
-	color: $white;
+	color: $gray;
 	font-style: normal;
 
 	&:hover {
-		color: $lightBlue;
+		color: $blue;
 		text-decoration: none;
 		@include transition(.4s ease-in-out);
 	}

@@ -13,6 +13,7 @@ import Footer from './components/footerComponent/footer';
 
 //Pages
 import Homepage from './components/pages/homepage';
+import About from './components/pages/about';
 import Projects from  './components/pages/projects';
 import Bored from './components/pages/bored/root';
 import Resources from  './components/pages/resources';
@@ -26,6 +27,7 @@ class App extends Component {
 			<Header />
 
 			<Route exact path = '/' component={Homepage} />
+			<Route exact path = '/about' component={About} />
 			<Route exact path = '/projects' component={Projects} />
 			<Route exact path = '/bored' component={Bored} />
 			<Route exact path = '/resources' component={Resources} />
