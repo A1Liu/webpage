@@ -12,19 +12,20 @@ body {
 
 a {
 	text-decoration: none;
+	font-size: 19px;
 	@include transition(.4s ease-in-out);
 	cursor: pointer;
-	color: $white;
+	color: $gray !important;
 	font-style: normal;
 
 	&:hover {
-		color: $blue;
+		color: $blue !important;
 		text-decoration: none;
 		@include transition(.4s ease-in-out);
 	}
 }
 
 .container-fluid {
-	padding: 10px;
+	margin: 10px;
 	line-height: 24px;
 }
