@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class BoredList extends Component {
+class BoredList extends React.Component {
   render() {
     return (
 		<ul className = "bored-list">

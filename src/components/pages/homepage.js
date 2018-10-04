@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Homepage extends Component {
+class Homepage extends React.Component {
   render() {
     return (
       <div className = "container-fluid">
