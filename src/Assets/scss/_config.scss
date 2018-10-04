@@ -1,40 +1,30 @@
-$black: #010000;
-$white: #ffffff;
-$lightGrey: #e6e6e6;
-$darkGrey: #333;
-$red: #ff1755;
-
-@mixin translateY($e) {
-	-webkit-transform: translateY($e);
-	-moz-transform: translateY($e);
-		transform: translateY($e);
-}
-
-@mixin transition($e) {
-	-webkit-transform: $e;
-	-moz-transform: $e;
-		transform: $e;
-}
+@import "_colors.scss";
+@import "_funcs.scss";
 
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	font-style: normal;
+	background: $darkGrey;
+	color: $white;
 }
 
 a {
 	text-decoration: none;
 	@include transition(.4s ease-in-out);
 	cursor: pointer;
+	color: $white;
+	font-style: normal;
 
 	&:hover {
-		color: $red;
-		text-decoration: none !important;
+		color: $lightBlue;
+		text-decoration: none;
 		@include transition(.4s ease-in-out);
 	}
 }
 
 .container-fluid {
+	padding: 10px;
 	line-height: 24px;
 }
