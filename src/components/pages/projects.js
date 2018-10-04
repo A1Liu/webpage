@@ -20,18 +20,18 @@ class Projects extends Component {
 			<li>
 				<a href = "https://github.com/A1Liu/seek-quench">Seek-Quench</a>
 			</li>
-			// <li>
-			// 	<a href = "temp">temp</a>
-			// </li>
-			// <li>
-			// 	<a href = "temp">temp</a>
-			// </li>
-			// <li>
-			// 	<a href = "temp">temp</a>
-			// </li>
-			// <li>
-			// 	<a href = "temp">temp</a>
-			// </li>
+			{/* <li>
+				<a href = "temp">temp</a>
+			</li>
+			<li>
+				<a href = "temp">temp</a>
+			</li>
+			<li>
+				<a href = "temp">temp</a>
+			</li>
+			<li>
+				<a href = "temp">temp</a>
+			</li>*/}
 
 		</ul>
 
