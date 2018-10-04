@@ -7,14 +7,14 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	background: $darkGray;
-	color: $gray;
+	color: $white;
 }
 
 a {
 	text-decoration: none;
 	@include transition(.4s ease-in-out);
 	cursor: pointer;
-	color: $gray;
+	color: $white;
 	font-style: normal;
 
 	&:hover {
