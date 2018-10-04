@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
 	BrowserRouter as Router,
 	Route,
@@ -18,7 +18,7 @@ import Projects from  './components/pages/projects';
 import Bored from './components/pages/bored/root';
 import Resources from  './components/pages/resources';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
 		<Router>
