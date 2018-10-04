@@ -1,6 +1,6 @@
 import React from 'react';
 
-class BoredList extends React.Component {
+class WebList extends React.Component {
   render() {
     return (
 		<ul className = "bored-list">
@@ -28,8 +28,10 @@ class BoredList extends React.Component {
 			<li>
 				<a href="http://drawminos.com/">Drawminos</a>
 			</li>
+			<li>
+				<a href="http://patorjk.com/games/snake/">Snake</a>
+			</li>
 		</ul>
     );
   }
-}
-export default BoredList;
+} export default WebList;

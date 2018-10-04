@@ -1,5 +1,6 @@
 import React from 'react';
-import BoredList from './list';
+import WebList from './weblist';
+import AppList from './applist';
 
 class Bored extends React.Component {
   render() {
@@ -14,10 +15,15 @@ class Bored extends React.Component {
 			Webpages
 		</h4>
 
-		< BoredList />
+		<WebList />
+
+		<h4>
+			Small Apps
+		</h4>
+
+		<AppList />
 
 	  </div>
     );
   }
-}
-export default Bored;
+} export default Bored;
