@@ -1,12 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Temp extends Component {
-  render() {
-    return (
-      <div className = "container-fluid">
+class Temp extends React.Component {
+	constructor(props) {
+		super(props);
+	}
 
-	  </div>
-    );
-  }
-}
-export default Temp;
+	componentDidMount() {//Start of life of component
+
+	}
+
+	componentWillUnmount() {
+
+	}
+
+	render() {
+		return (
+		  <div className = "container-fluid">
+
+		  </div>
+		);
+	}
+} export default Temp;
