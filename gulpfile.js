@@ -2,33 +2,36 @@
 // This file updates the scss style sheets to css style sheets
 
 // Import stuff
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var minifyCSS = require('gulp-clean-css');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var changed = require('gulp-changed');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const minifyCSS = require('gulp-clean-css');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const changed = require('gulp-changed');
+const markdown = require('gulp-markdown');
 
 //Set file paths
-var SCSS_SRC = './src/Assets/scss/**/*.scss';
-var SCSS_DEST = './src/Assets/css';
+const SCSS_SRC = './src/Assets/scss/**/*.scss';
+const SCSS_DEST = './src/Assets/css';
+var MD_SRC = '';
+var MD_DEST = '';
 
-gulp.task('compile_scss',function() {
-	return gulp.src(SCSS_SRC)
-	.pipe(sass().on('error',sass.logError))
-	.pipe(minifyCSS())
-	.pipe(rename({ suffix: '.min'}))
-	.pipe(changed(SCSS_DEST))
-	.pipe(gulp.dest(SCSS_DEST));
-});
+function compile_scss() {
+	return gulp.src(SCSS_SRC) // Source file is some scss document
+	.pipe(sass().on('error',sass.logError)) // compile the source file
+	.pipe(minifyCSS()) // Minify the css file
+	.pipe(rename({ suffix: '.min'})) // Add a suffix
+	.pipe(changed(SCSS_DEST)) // only pass through changed files
+	.pipe(gulp.dest(SCSS_DEST)); // put it in a destination
+}
 //"&& cd build && git add . && git commit -m 'most recent build' && git push"
 
 gulp.task('watch_scss', function() {
-	gulp.watch(SCSS_SRC,gulp.series('compile_scss', function() {
-
-	}));
+	gulp.watch(SCSS_SRC, compile_scss );
 });
 
-gulp.task('default',gulp.series('watch_scss',function() {
+gulp.task('default',gulp.series('watch_scss',function() {return 0;}));
 
-}));
+gulp.task('compile_md', function(){
+	return 0;
+});

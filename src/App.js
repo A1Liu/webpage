@@ -13,7 +13,7 @@ import Footer from './components/footerComponent/footer';
 //Pages
 import Homepage from './components/pages/homepage';
 import Projects from  './components/pages/projects';
-import Games from './components/pages/games';
+import Games from './components/pages/bored';
 import Resources from  './components/pages/resources';
 
 class App extends Component {
@@ -26,9 +26,9 @@ class App extends Component {
 
 				<Route exact path = '/' component={Homepage} />
 				<Route exact path = '/projects' component={Projects} />
+				<Route exact path = '/bored' component={Games} />
 				<Route exact path = '/resources' component={Resources} />
-				<Route exact path = '/games' component={Games} />
-
+				
 			<Footer />
 
 			</div>

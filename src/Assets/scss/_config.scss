@@ -30,6 +30,7 @@ a {
 
 	&:hover {
 		color: $red;
+		text-decoration: none !important;
 		@include transition(.4s ease-in-out);
 	}
 }
