@@ -7,13 +7,14 @@ import {
 
 
 import './Assets/css/default.min.css';
+import './Assets/css/bored.min.css';
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
 
 //Pages
 import Homepage from './components/pages/homepage';
 import Projects from  './components/pages/projects';
-import Games from './components/pages/bored';
+import Bored from './components/pages/bored';
 import Resources from  './components/pages/resources';
 
 class App extends Component {
@@ -24,11 +25,11 @@ class App extends Component {
 
 			<Header />
 
-				<Route exact path = '/' component={Homepage} />
-				<Route exact path = '/projects' component={Projects} />
-				<Route exact path = '/bored' component={Games} />
-				<Route exact path = '/resources' component={Resources} />
-				
+			<Route exact path = '/' component={Homepage} />
+			<Route exact path = '/projects' component={Projects} />
+			<Route exact path = '/bored' component={Bored} />
+			<Route exact path = '/resources' component={Resources} />
+
 			<Footer />
 
 			</div>

@@ -9,7 +9,7 @@ class Header extends Component {
     return (
       <header>
 	  	<div className = "logo">
-			LOGO
+			Albert Liu
 		</div>
 		<nav>
 			<ul>
