@@ -9,6 +9,9 @@ class Bored extends Component {
 			Things to Do While Bored
 		</h2>
 
+		<h4>
+			Webpages
+		</h4>
 		<ul className = "bored-list">
 			<li>
 				<a href="https://cultofthepartyparrot.com/">Cult of the Party Parrot</a>
