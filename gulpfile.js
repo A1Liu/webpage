@@ -21,7 +21,7 @@ function compile_scss() {
 	.pipe(sass().on('error',sass.logError)) // compile the source file
 	.pipe(minifyCSS()) // Minify the css file
 	.pipe(rename({ suffix: '.min'})) // Add a suffix
-	.pipe(changed(SCSS_DEST)) // only pass through changed files
+	// .pipe(changed(SCSS_DEST)) // only pass through changed files
 	.pipe(gulp.dest(SCSS_DEST)); // put it in a destination
 }
 //"&& cd build && git add . && git commit -m 'most recent build' && git push"
