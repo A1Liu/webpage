@@ -15,7 +15,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "rm -r docs/static && mv -f build/* docs && cd docs && git add . && git commit -m 'most recent build' && git push && cd .."
+    "deploy": "cd .. && rm -r homepage-build/static && mv -f homepage/build/* homepage-build && cd homepage-build && git add . && git commit -m 'most recent build' && git push && cd .. && cd homepage"
   },
   "devDependencies": {
     "ajv": "^6.5.4",
@@ -23,6 +23,7 @@
     "gulp": "^4.0.0",
     "gulp-changed": "^3.2.0",
     "gulp-clean-css": "^3.10.0",
+    "gulp-cli": "^2.0.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1"
