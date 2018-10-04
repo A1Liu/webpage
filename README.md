@@ -8,8 +8,10 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][
 * [ ] Project descriptions
 
 ### Sources
-* [Setup][setup] - Used this to set up the page
-* [Tutorial][tut] - Used this to build page
+
+##### Initial Setup
+- [Setup][setup] - Used this to set up the page
+- [Tutorial][tut] - Used this to build page
 	- [Sass][sass] - Used this to make css stuff easier
 	- [Gulp][gulp] - Used this to auto-compile sass files
 	- [Bootstrap][boots] - Used this library for javascript stuff
@@ -22,6 +24,9 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][
 	- [Atom One Dark UI][onedarkui] - Copied color theme
 	- [Atom One Dark Syntax Highlighting][onedarksyn] - Copied color theme
 	- [jonathanchu's Atom One Dark Theme for Emacs][jchu] - Used source to get color values
+
+##### Further Development
+- [React Docs][reactdocs] - Going to use the react docs to learn the api a bit
 
 
 [page]: https://a1liu.github.io/
@@ -38,3 +43,5 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][
 [onedarkui]: https://github.com/atom/one-dark-ui
 [onedarksyn]: https://github.com/atom/one-dark-syntax
 [jchu]: https://github.com/jonathanchu/atom-one-dark-theme
+
+[reactdocs]: https://reactjs.org/docs/
