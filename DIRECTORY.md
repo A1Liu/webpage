@@ -29,8 +29,9 @@ The directory structure is:
     │   │   └── header.js
     │   └── pages
     │       ├── homepage.js
-    │       ├── page2.js
-    │       └── page3.js
+    │       ├── bored.js
+	│	  	├── projects.js
+    │       └── resources.js
     ├── index.js
     └── registerServiceWorker.js
 ```

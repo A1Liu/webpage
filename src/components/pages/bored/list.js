@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
 
-class Bored extends Component {
+class BoredList extends Component {
   render() {
     return (
-      <div className = "container-fluid">
-
-		<h2>
-			Things to Do While Bored
-		</h2>
-
-		<h4>
-			Webpages
-		</h4>
 		<ul className = "bored-list">
 			<li>
 				<a href="https://cultofthepartyparrot.com/">Cult of the Party Parrot</a>
@@ -38,8 +29,7 @@ class Bored extends Component {
 				<a href="http://drawminos.com/">Drawminos</a>
 			</li>
 		</ul>
-	  </div>
     );
   }
 }
-export default Bored;
+export default BoredList;

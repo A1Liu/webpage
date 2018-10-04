@@ -14,7 +14,7 @@ import Footer from './components/footerComponent/footer';
 //Pages
 import Homepage from './components/pages/homepage';
 import Projects from  './components/pages/projects';
-import Bored from './components/pages/bored';
+import Bored from './components/pages/bored/root';
 import Resources from  './components/pages/resources';
 
 class App extends Component {
