@@ -37,7 +37,7 @@ class About extends React.Component {
 
 	incr_count() {
 		var i = Math.floor(Math.random() * info.length);
-		this.setState((state) =>({ counter: ((i == state.counter) ? (i+1) % info.length: i) }));
+		this.setState((state) =>({ counter: ((i === state.counter) ? (i+1) % info.length: i) }));
 	}
 
 	render() {
