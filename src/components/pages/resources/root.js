@@ -1,4 +1,5 @@
 import React from 'react';
+import WebResources from './webresources';
 
 class Resources extends React.Component {
   render() {
@@ -12,9 +13,10 @@ class Resources extends React.Component {
 		<p className="App-intro">
 			This page contains links to the resources that I've found over time.
 			I don't claim credit for or endorse any content on the sites that the links point to.
-			<br /><br />
 		</p>
-
+		<br />
+		<WebResources />
+		<br />
 		<LatexResources />
 		{/* <GenResources /> */}
 
@@ -27,8 +29,8 @@ export default Resources;
 class LatexResources extends React.Component {
 	render() {
 		return (
-			<div className = "resourcelist">
-				<h3 name = "latex">
+			<div className = "resourcelist" name = "latexresources">
+				<h3>
 					LaTeX
 				</h3>
 
@@ -39,7 +41,7 @@ class LatexResources extends React.Component {
 					</li>
 					<li>
 						<a href="https://reu.dimacs.rutgers.edu/Symbols.pdf">LaTeX Math Mode Symbols</a>&nbsp;-
-						PDF with most if not all the math symbols in LaTeX.
+						PDF with most if not all the math symbols in LaTeX
 					</li>
 					{/* <li>
 						<a href="">  </a>&nbsp;-
@@ -50,23 +52,6 @@ class LatexResources extends React.Component {
 		);
 	}
 }
-
-// class GenResources extends React.Component {
-// 	render() {
-// 		return (
-// 			<h3 name = "name">
-// 				name
-// 			</h3>
-//
-// 			<ul>
-// 				<li>
-// 					<a href=""></a>&nbsp;-
-// 					desc
-// 				</li>
-// 			</ul>
-// 		);
-// 	}
-// }
 
 // class GenResources extends React.Component {
 // 	render() {
