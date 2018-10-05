@@ -5,10 +5,12 @@ import {
 	// Link
 } from 'react-router-dom';
 
-
+//CSS Style sheets
 import './Assets/css/default.min.css';
 import './Assets/css/bored.min.css';
 import './Assets/css/about.min.css';
+
+// Header and footer
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
 
@@ -17,7 +19,7 @@ import Homepage from './components/pages/homepage';
 import About from './components/pages/about';
 import Projects from  './components/pages/projects';
 import Bored from './components/pages/bored/root';
-import Resources from  './components/pages/resources';
+import Resources from  './components/pages/resources/root';
 
 class App extends React.Component {
   render() {
