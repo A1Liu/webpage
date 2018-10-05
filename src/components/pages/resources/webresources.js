@@ -22,9 +22,9 @@ class CSSResources extends React.Component {
 	render() {
 		return (
 		<div name = "cssresources">
-			<h4>
+			<h5>
 				CSS
-			</h4>
+			</h5>
 
 			<ul>
 				<li>
@@ -41,9 +41,9 @@ class HTMLResources extends React.Component {
 	render() {
 		return (
 		<div name = "htmlresources">
-			<h4>
+			<h5>
 				HTML
-			</h4>
+			</h5>
 			<ul>
 				<li>
 					<a href="https://www.w3schools.com/colors/colors_picker.asp?color=80ced6">HTML Color Picker</a>&nbsp;-
