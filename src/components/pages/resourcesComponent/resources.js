@@ -11,7 +11,7 @@ class Resources extends React.Component {
 		</h1>
 
 		<p className="App-intro">
-			This page contains links to the resources that I've found over time.
+			This page contains links to resources that I've found over time.
 			I don't claim credit for or endorse any content on the sites that the links point to.
 		</p>
 		<br />

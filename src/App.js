@@ -18,8 +18,8 @@ import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homepage';
 import About from './components/pages/about';
 import Projects from  './components/pages/projects';
-import Bored from './components/pages/bored/root';
-import Resources from  './components/pages/resources/root';
+import Bored from './components/pages/boredComponent/bored';
+import Resources from  './components/pages/resourcesComponent/resources';
 
 class App extends React.Component {
   render() {
