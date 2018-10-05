@@ -6,6 +6,8 @@ const info = ["I'm Albert!",
 			"I went to Fox Chapel Area High School.",
 			(<span>My Github is&nbsp;<a href = "https://github.com/A1Liu">https://github.com/A1Liu</a>.</span>),
 			(<span>My Instagram is&nbsp;<a href = "https://www.instagram.com/a1_liu/">@a1_liu</a>.</span>),
+			(<span>I'm not&nbsp;<a href = "http://albert.nyu.edu/albert_index.html">NYU Albert</a>.</span>),
+			// "",
 			];
 
 class AboutInfo extends React.Component {
