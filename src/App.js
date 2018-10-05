@@ -8,6 +8,7 @@ import {
 
 import './Assets/css/default.min.css';
 import './Assets/css/bored.min.css';
+import './Assets/css/about.min.css';
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
 
