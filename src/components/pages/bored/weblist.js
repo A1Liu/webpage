@@ -31,6 +31,15 @@ class WebList extends React.Component {
 			<li>
 				<a href="http://patorjk.com/games/snake/">Snake</a>
 			</li>
+			<li>
+				<a href="https://intro.novationmusic.com/wonk-pop">Browser Launchpad</a>
+			</li>
+			{/* <li>
+				<a href="temp">temp</a>
+			</li>
+			<li>
+				<a href="temp">temp</a>
+			</li> */}
 		</ul>
     );
   }

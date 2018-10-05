@@ -6,7 +6,7 @@ class Homepage extends React.Component {
       <div className = "container-fluid">
 
 		<h1>
-			Home Page Content
+			Home
 		</h1>
 		<p className="App-intro">
 			Hello! This is currently not being worked on, but eventually there will be content here.
