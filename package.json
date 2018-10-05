@@ -14,8 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "cd .. && rm -r homepage-build/static && mv -f homepage/build/* homepage-build && cd homepage-build && git add . && git commit -m 'most recent build' && git push && cd .. && cd homepage"
+    "predeploy": "npm run build && rm -r ../homepage-build/static && mv -f build/* ../homepage-build",
+    "deploy": "cd ../homepage-build && git add . && git commit -m 'most recent build' && git push && cd ../homepage"
   },
   "devDependencies": {
     "ajv": "^6.5.4",

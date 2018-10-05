@@ -12,10 +12,6 @@ const info = ["I'm Albert!",
 
 class AboutInfo extends React.Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		return (
 			<p className = "about-info">
