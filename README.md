@@ -3,6 +3,7 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][
 
 ### TODO
 * [ ] Like everything
+* [ ] Decide on general format for where things should go in website
 * [ ] Git submodules
 * [ ] Homepage
 * [ ] Project descriptions
@@ -28,7 +29,7 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][
 ##### Further Development
 - [React Docs][reactdocs] - Going to use the react docs to learn the api a bit
 
-
+<!-- Sources -->
 [page]: https://a1liu.github.io/
 [setup]: https://github.com/gitname/react-gh-pages
 [tut]: https://www.youtube.com/watch?v=nusgoj74a3Y&index=3&list=PL-Db3tEF6pB8oGh1vpfmpSa1-duyxNuGc
