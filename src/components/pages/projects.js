@@ -3,7 +3,7 @@ import React from 'react';
 class Projects extends React.Component {
   render() {
     return (
-      <div className = "container-fluid">
+      <article className = "projects">
 
 		<h1>
 			Projects
@@ -35,7 +35,7 @@ class Projects extends React.Component {
 
 		</ul>
 
-	  </div>
+	</article>
     );
   }
 }

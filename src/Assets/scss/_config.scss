@@ -1,6 +1,8 @@
 @import "_colors.scss";
 @import "_funcs.scss";
 
+
+
 body {
 	font-family: "Open Sans", sans-serif;
 	// font-family: Consolas, monaco, "Andale Mono", AndaleMono, "Courier New", monospace;
@@ -9,6 +11,8 @@ body {
 	font-style: normal;
 	background: $darkGray;
 	color: $lightGray;
+	padding:0px;
+	margin: 0px;
 }
 
 a {
@@ -27,6 +31,6 @@ a {
 }
 
 .container-fluid {
-	margin: 10px;
+	// margin: 10px;
 	line-height: 24px;
 }

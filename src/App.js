@@ -25,19 +25,21 @@ class App extends React.Component {
   render() {
     return (
 		<Router>
-			<div className="App">
+		<div className="App">
 
 			<Header />
 
-			<Route exact path = '/' component={Homepage} />
-			<Route exact path = '/about' component={About} />
-			<Route exact path = '/projects' component={Projects} />
-			<Route exact path = '/bored' component={Bored} />
-			<Route exact path = '/resources' component={Resources} />
+			<div className = "container-fluid">
+				<Route exact path = '/' component={Homepage} />
+				<Route exact path = '/about' component={About} />
+				<Route exact path = '/projects' component={Projects} />
+				<Route exact path = '/bored' component={Bored} />
+				<Route exact path = '/resources' component={Resources} />
+			</div>
 
 			<Footer />
 
-			</div>
+		</div>
 		</Router>
     );
   }

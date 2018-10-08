@@ -38,7 +38,7 @@ class About extends React.Component {
 
 	render() {
 		return (
-			<div className = "container-fluid">
+			<article className = "about">
 
 				<h1>
 					About Me
@@ -57,7 +57,7 @@ class About extends React.Component {
 					page for more info!
 				</p>
 
-			</div>
+			</article>
 		);
 	}
 }
