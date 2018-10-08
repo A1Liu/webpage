@@ -1,10 +1,12 @@
 import React from 'react';
-import WebResources from './webresources';
+import WebResources from './web';
+import MarkdownResources from './markdown';
+import LatexResources from './latex';
 
 class Resources extends React.Component {
   render() {
     return (
-      <div className = "container-fluid">
+      <article className = "resources">
 
 		<h1>
 			Resources
@@ -18,40 +20,16 @@ class Resources extends React.Component {
 		<WebResources />
 		<br />
 		<LatexResources />
+		<br />
+		<MarkdownResources />
 		{/* <GenResources /> */}
 
-	  </div>
+	</article>
     );
   }
 }
 export default Resources;
 
-class LatexResources extends React.Component {
-	render() {
-		return (
-			<div className = "resourcelist" name = "latexresources">
-				<h3>
-					LaTeX
-				</h3>
-
-				<ul>
-					<li>
-						<a href="https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf">LaTeX Cheat Sheet</a>&nbsp;-
-						PDF that lists some of the common LaTeX expressions
-					</li>
-					<li>
-						<a href="https://reu.dimacs.rutgers.edu/Symbols.pdf">LaTeX Math Mode Symbols</a>&nbsp;-
-						PDF with most if not all the math symbols in LaTeX
-					</li>
-					{/* <li>
-						<a href="">  </a>&nbsp;-
-						desc
-					</li> */}
-				</ul>
-			</div>
-		);
-	}
-}
 
 // class GenResources extends React.Component {
 // 	render() {

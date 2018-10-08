@@ -5,7 +5,7 @@ class WebResources extends React.Component {
 		return (
 		<div name = "webresources">
 			<h3>
-				Web Resources
+				Web Development
 			</h3>
 			<p>
 				Resources for web development.
