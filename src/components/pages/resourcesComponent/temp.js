@@ -10,19 +10,23 @@ class #Resources extends React.Component {
 
 				<ul>
 					<li>
-						<a href="firstlink">firstlinktext</a>&nbsp;-
+						<a href="firstlink">
+						firstlinktext</a>&nbsp;-
 						description
 					</li>
 					{/* <li>
-						<a href="firstlink">firstlinktext</a>&nbsp;-
+						<a href="firstlink">
+						firstlinktext</a>&nbsp;-
 						description
 					</li> */}
 					{/* <li>
-						<a href="firstlink">firstlinktext</a>&nbsp;-
+						<a href="firstlink">
+						firstlinktext</a>&nbsp;-
 						description
 					</li> */}
 					{/* <li>
-						<a href="firstlink">firstlinktext</a>&nbsp;-
+						<a href="firstlink">
+						firstlinktext</a>&nbsp;-
 						description
 					</li> */}
 				</ul>

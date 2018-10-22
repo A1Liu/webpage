@@ -11,8 +11,8 @@ const changed = require('gulp-changed');
 const markdown = require('gulp-markdown');
 
 //Set file paths
-const SCSS_SRC = './src/Assets/scss/**/*.scss';
-const SCSS_DEST = './src/Assets/css';
+const SCSS_SRC = './src/assets/scss/**/*.scss';
+const SCSS_DEST = './src/assets/css';
 var MD_SRC = '';
 var MD_DEST = '';
 

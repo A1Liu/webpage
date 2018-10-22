@@ -3,10 +3,12 @@ import WebResources from './web';
 import MarkdownResources from './markdown';
 import LatexResources from './latex';
 
+//https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+
 class Resources extends React.Component {
   render() {
     return (
-      <article className = "resources">
+      <div className = "resources">
 
 		<h1>
 			Resources
@@ -24,7 +26,7 @@ class Resources extends React.Component {
 		<MarkdownResources />
 		{/* <GenResources /> */}
 
-	</article>
+	</div>
     );
   }
 }

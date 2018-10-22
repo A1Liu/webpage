@@ -3,7 +3,7 @@ import React from 'react';
 class Homepage extends React.Component {
   render() {
     return (
-      <article className = "homepage">
+      <div className = "homepage">
 
 		<h1>
 			Home
@@ -12,7 +12,7 @@ class Homepage extends React.Component {
 			Hello! This is currently not being worked on, but eventually there will be content here.
 		</p>
 
-	</article>
+	</div>
     );
   }
 }

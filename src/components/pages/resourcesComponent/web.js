@@ -31,6 +31,31 @@ class CSSResources extends React.Component {
 					<a href="https://www.cssfontstack.com/">CSS Font Stack</a>&nbsp;-
 					Good site to decide which font to use
 				</li>
+				<li>
+					<a href="https://css-tricks.com/">CSS Tricks</a>&nbsp;-
+					 That's what they are
+					 <ul>
+						 <li>
+		 					<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flex Box Guide</a>
+		 				</li>
+					 </ul>
+				</li>
+				<li>
+					<a href="https://getbootstrap.com/">Bootstrap</a>&nbsp;-
+					CSS Library that makes styling easier
+				</li>
+				{/* <li>
+					<a href="temp">temp</a>&nbsp;-
+					desc
+				</li> */}
+				{/* <li>
+					<a href="temp">temp</a>&nbsp;-
+					desc
+				</li> */}
+				{/* <li>
+					<a href="temp">temp</a>&nbsp;-
+					desc
+				</li> */}
 			</ul>
 		</div>
 		);
@@ -54,8 +79,20 @@ class HTMLResources extends React.Component {
 					Converts colors from one format to another
 				</li>
 				{/* <li>
-					<a href="https://www.cssfontstack.com/">CSS Font Stack</a>&nbsp;-
-					Good site to decide which font to use
+					<a href="temp">temp</a>&nbsp;-
+					desc
+				</li> */}
+				{/* <li>
+					<a href="temp">temp</a>&nbsp;-
+					desc
+				</li> */}
+				{/* <li>
+					<a href="temp">temp</a>&nbsp;-
+					desc
+				</li> */}
+				{/* <li>
+					<a href="temp">temp</a>&nbsp;-
+					desc
 				</li> */}
 			</ul>
 		</div>

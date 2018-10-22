@@ -16,7 +16,7 @@ The directory structure is:
 └── src
     ├── App.js
     ├── App.test.js
-    ├── Assets
+    ├── assets
     │   ├── css
     │   │   └── default.min.css
     │   └── scss

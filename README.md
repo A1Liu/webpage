@@ -7,6 +7,7 @@ React homepage for my personal webpage. Website URL: [https://a1liu.github.io/][
 * [ ] Git submodules
 * [ ] Homepage
 * [ ] Project descriptions
+* [ ] Use Firebase for file storage instead of storing in static HTML
 
 ### Sources
 

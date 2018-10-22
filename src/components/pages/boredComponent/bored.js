@@ -5,7 +5,7 @@ import AppList from './applist';
 class Bored extends React.Component {
   render() {
     return (
-      <article className = "bored">
+      <div className = "bored">
 
 		<h2>
 			Things to Do While Bored
@@ -23,7 +23,7 @@ class Bored extends React.Component {
 
 		<AppList />
 
-	</article>
+	</div>
     );
   }
 } export default Bored;
